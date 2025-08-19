@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <title>Тест GTM</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Google Tag Manager -->
+  <script>
+  (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-57F59MCM');
+  </script>
+  <!-- End Google Tag Manager -->
+
+  <style>
+    body{font-family:system-ui,Arial,sans-serif;max-width:800px;margin:40px auto;padding:0 16px}
+    .btn{display:inline-block;padding:12px 18px;border:1px solid #ccc;border-radius:8px;text-decoration:none}
+  </style>
+</head>
+<body>
+
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-57F59MCM"
+  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
+
+  <h1>Тестовый сайт для проверки Google Tag Manager</h1>
+  <p>Если GTM подключён, его видно в режиме предварительного просмотра.</p>
+  <a class="btn" href="#" onclick="dataLayer.push({event:'test_click',label:'Кнопка на странице'}); alert('Событие отправлено в dataLayer');">Проверить событие</a>
+
+</body>
+</html>
